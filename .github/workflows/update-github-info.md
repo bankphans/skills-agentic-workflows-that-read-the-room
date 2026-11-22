@@ -22,6 +22,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -35,11 +36,12 @@ Use these official sources:
 
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
-Use `web-fetch` to read both sources. Identify practical updates that help
+Use `web-fetch` to read all three sources. Identify practical updates that help
 developers learn GitHub faster, and keep summaries concise. Update only
 `site/content/github-info.md`. Mention the source whenever an update comes
-from the GitHub Blog or GitHub Changelog.
+from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 
 Open a pull request for Mona to review with the proposed update. Use a pull
 request title that mentions Mona or GitHub Info. Do not write directly to
